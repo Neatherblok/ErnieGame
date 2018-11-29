@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../fonts/Minecraft.ttf') format('truetype');
+}
+
+canvas{
+    font-family: 'Minecraft';
+    background-image: url("../images/gameBackgroundGrass.jpg");
+    float: left;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+audio {
+    display: none;
+}
